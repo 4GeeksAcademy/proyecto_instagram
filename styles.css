@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    background: lightgray;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+}
+div.publicaciones {
+    width: 500px;
+    margin: auto;
+}
+div.contenedor{
+    background: white;
+    margin-top: 10px;
+}
+
+div.contenedor img{
+    width: 500px;
+    height: 400px;
+    
+}
+div.contenedor h2, div.contenedor p{
+    padding: 10px;
+}
+div.contenedor div.cabecera div:first-child{
+    display: inline-block;
+    width:80%;
+}
+div.contenedor div.cabecera div:last-child{
+    display: inline-block;
+    width: 18%;
+    color:gray;
+    text-align: right;
+    padding: 2px;
+}
